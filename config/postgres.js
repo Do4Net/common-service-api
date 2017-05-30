@@ -2,10 +2,10 @@
 
 module.exports = { 
     "username"	: "postgres",
-    "password"	: "P0o9i8u7&",
+    "password"	: "jianfa",
     "dbName"	: "common",
     "options":{  
-	    host	: 	"www.521time.com",
+	    host	: 	"127.0.0.1",
 	    dialect : 	"postgres",
 	    postgres:    5432
 	}
