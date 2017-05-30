@@ -1,0 +1,1 @@
+exports.sequelize = require('./orm/index');

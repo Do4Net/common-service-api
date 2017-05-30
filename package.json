@@ -1,0 +1,30 @@
+{
+  "name": "common-service-api",
+  "version": "0.0.1",
+  "description": "service api",
+  "main": "app.js",
+  "dependencies": {
+    "co": "~3.0.1",
+    "co-body": "0.0.1",
+    "co-redis": "0.0.2",
+    "koa": "~0.2.0",
+    "koa-compress": "~1.0.0", 
+    "koa-cors": "0.0.16",
+    "koa-favicon": "~1.0.1",
+    "koa-logger": "~1.1.0",
+    "koa-mount": "~1.2.2",
+    "koa-response-time": "~1.0.1",
+    "koa-route": "^3.2.0",
+    "koa-router": "~2.2.0", 
+    "pg": "^5.1.0",
+    "redis": "~0.10.0",
+    "sequelize": "~2.0.0-beta.5",
+    "thunkify": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "do4net",
+  "license": "MIT"
+}
