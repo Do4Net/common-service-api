@@ -24,7 +24,7 @@ const app = require('koa')(),
 app.use(compress());
 app.use(cors()); 
 app.use(logger());
-app.use(favicon());
+//app.use(favicon());
 app.use(compress());
 app.use(responseTime()); 
 app.use(mount('/v1', routers));
