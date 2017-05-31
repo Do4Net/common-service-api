@@ -41,9 +41,9 @@ app.use(mount('/v1', routers));
 app.on("error", function (err, ctx) {
     console.error( err );
     //sentry.captureException(err);
-    logger.error( "Error name: " , err.name );
-    logger.error( "Error code: " , err.code );
-    logger.error( "Error message: ", err.message );
+   // logger.error( "Error name: " , err.name );
+   // logger.error( "Error code: " , err.code );
+   // logger.error( "Error message: ", err.message );
 });
 
 co(function *(){
