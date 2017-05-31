@@ -1,0 +1,11 @@
+{
+    "apps": [{
+        "name": "common-serivce-api",
+        "script": "./app.js",
+        "error_file": "./logs/err.log",
+        "out_file": "./logs/out.log",
+        "node_args": "--harmony --harmony-async-await",
+        "watch": ["src"],
+        "log_date_format": "YYYY - MM - DD HH: mm Z",
+    }]
+}
